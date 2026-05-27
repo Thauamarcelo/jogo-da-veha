@@ -11,5 +11,31 @@ body {
   align-items: center;
 }
 
+.tittle{
+  padding-bottom: 20px;
+}
 .board-game {
+  width: 400px;
+  height: 400px;
+  background: rgb(231, 230, 230);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  span{
+    width: 33.33333%;
+    height: 33.33333%;  /* ← adicione isso */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 1, 49);
+    font-size: 30px;
+
+    &:hover{
+      background: #f6f6f6;
+      cursor: pointer;
+    }
+  }
 }
